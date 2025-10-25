@@ -1,4 +1,5 @@
 import React from "react";
+import CTA from "./CTA";
 
 const Hero = () => {
   const styles = {
@@ -303,17 +304,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div style={styles.ctaArea}>
-            <div style={styles.liveLabel}>
-              <span style={styles.dot}></span> ATTEND LIVE
-            </div>
-            <a href="#" className="cta" style={styles.cta}>
-              Discover How to Build a Smooth Business That Runs Without You
-            </a>
-            <p style={styles.note}>
-              Note: We’re Always Overbooked. Take Action Before It’s Too Late!
-            </p>
-          </div>
+          <CTA />
         </div>
 
         <div className="webinarWrapper" style={styles.webinarWrapper}>
@@ -354,16 +345,7 @@ const Hero = () => {
               </div>
             </div>
 
-            <div style={styles.liveText}>
-              <span style={styles.liveDot}></span> ATTEND LIVE
-            </div>
-            <a href="#" style={styles.ctaWebinar}>
-              Discover How to Build a Smooth Business That Runs Without You
-            </a>
-            <p style={styles.note}>
-              <span style={styles.hurry}>HURRY!</span> Limited Spots Available –
-              Take Action Before It’s Too Late!..
-            </p>
+            <CTA />
           </div>
         </div>
       </section>

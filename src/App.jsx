@@ -6,6 +6,7 @@ import ResultsSection from "./components/ResultsSection";
 import CoachSection from "./components/CoachSection";
 import Bonus from "./components/Bonus";
 import FAQ from "./components/FAQ";
+import CTA from "./components/CTA";
 
 const App = () => {
   return (

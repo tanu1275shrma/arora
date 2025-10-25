@@ -1,4 +1,5 @@
 import React from "react";
+import CTA from "./CTA";
 
 const Learn = () => {
   const items = [
@@ -76,24 +77,7 @@ const Learn = () => {
           “By The End Of This Session, You’ll Know The Exact Roadmap To Set The
           Business On Autopilot With A Team And System That Frees You From Daily
           Firefighting.”
-        </p>
-
-        {/* CTA Button with Animations */}
-        <div className="relative inline-block mb-6">
-          <button
-            className="relative bg-[#ff2e2e] text-white font-bold text-base sm:text-lg md:text-xl py-4 px-10 sm:px-14 rounded-full shadow-[0_5px_20px_rgba(255,0,0,0.5)] transition-all duration-300 
-            animate-bounce-slow hover:animate-shake hover:bg-[#ff4444]"
-          >
-            Discover How to Build a Smooth Business That Runs Without You
-          </button>
-
-          <div className="absolute left-1/2 -translate-x-1/2 -top-4 bg-[#9b1b1b] text-white text-xs sm:text-sm px-4 py-1 rounded-full shadow-md">
-            ATTEND LIVE
-          </div>
-        </div>
-
-        <p className="text-gray-100 font-medium mt-2">
-          Note: Take Action Before It’s Too Late!
+          <CTA />
         </p>
       </div>
 

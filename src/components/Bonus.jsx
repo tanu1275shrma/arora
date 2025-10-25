@@ -1,4 +1,5 @@
 import React from "react";
+import CTA from "./CTA";
 
 const Bonus = () => {
   const bonuses = [
@@ -93,25 +94,7 @@ const Bonus = () => {
           This Bonuses Is Your Shortcut To Building A Team That Grows Your
           Business Without You.
         </h2>
-
-        {/* CTA Section */}
-        <div className="relative inline-block">
-          <div className="absolute -top-6 left-1/2 -translate-x-1/2 bg-[#a50a0a] text-sm px-4 py-1 rounded-full text-white flex items-center gap-2 ">
-            <span className="w-2 h-2 bg-red-500 rounded-full animate-ping"></span>
-            ATTEND LIVE
-          </div>
-
-          <button
-            className="bg-gradient-to-b from-red-500 to-red-700 text-white font-bold text-lg md:text-xl mt-8 px-10 py-4 rounded-full shadow-[0_0_25px_rgba(255,0,0,0.7)]
-           hover:scale-105 transition-all duration-300 animate-bounce hover:animate-pulse"
-          >
-            Discover How to Build a Smooth Business That Runs Without You
-          </button>
-        </div>
-
-        <p className="text-gray-100 text-lg mt-4">
-          Note: Take Action Before It’s Too Late!
-        </p>
+        <CTA />
       </div>
     </section>
   );

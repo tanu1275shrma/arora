@@ -1,4 +1,5 @@
 import React from "react";
+import CTA from "./CTA";
 
 const VideoCard = ({ title, imageUrl, videoUrl }) => {
   const TEAL_BRIGHT = "rgb(0, 201, 224)";
@@ -58,12 +59,12 @@ const ResultsSection = () => {
   ];
 
   return (
-    <section className="flex flex-col items-center justify-center py-16 px-6 sm:px-10 md:px-20 lg:px-28 font-sans text-gray-900">
+    <section className=" bg-[#07131f] flex flex-col items-center justify-center py-16 px-6 sm:px-10 md:px-20 lg:px-28 font-sans text-gray-900">
       {/* Heading */}
       <h2 className="text-4xl sm:text-4xl font-bold text-center mb-3 text-sky-400">
         Proof That This Works
       </h2>
-      <p className="text-gray-900 text-center text-lg font-semibold sm:text-lg mb-10 max-w-2xl">
+      <p className="text-gray-100 text-center text-lg font-semibold sm:text-lg mb-10 max-w-2xl">
         Real entrepreneurs. Real results. Real transformations. See how this
         framework has changed businesses like yours.
       </p>
@@ -86,30 +87,7 @@ const ResultsSection = () => {
         </div>
       </div>
 
-      {/* CTA Section */}
-      <div className="text-center mt-16">
-        <div className="relative inline-block mb-6">
-          {/* Glow Background */}
-          <div className="absolute inset-0 rounded-full animate-pulse bg-[#ff2e2e] opacity-40"></div>
-
-          <button
-            className="relative bg-[#ff2e2e] text-white font-bold text-base sm:text-lg md:text-xl py-4 px-10 sm:px-14 rounded-full 
-            shadow-[0_5px_20px_rgba(255,0,0,0.5)] transition-all duration-300 
-            animate-bounce-slow hover:animate-shake hover:bg-[#d43030]"
-          >
-            Discover How to Build a Smooth Business That Runs Without You
-          </button>
-
-          {/* Tag */}
-          <div className="absolute left-1/2 -translate-x-1/2 -top-4 bg-[#9b1b1b] text-white text-xs sm:text-sm px-4 py-1 rounded-full shadow-md">
-            ATTEND LIVE
-          </div>
-        </div>
-
-        <p className="text-gray-900 text-lg mt-2">
-          Note: Take Action Before It’s Too Late!
-        </p>
-      </div>
+      <CTA />
 
       {/* Animations */}
       <style>
