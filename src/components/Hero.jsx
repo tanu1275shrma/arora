@@ -329,7 +329,7 @@ const Hero = () => {
             <div style={styles.detailsGrid}>
               <div style={styles.detailBox}>
                 <p style={styles.detailTitle}>Date :</p>
-                <p style={styles.detailValue}>Oct 26th, (Sun) 2025</p>
+                <p style={styles.detailValue}>Nov 16, 2025</p>
               </div>
               <div style={styles.detailBox}>
                 <p style={styles.detailTitle}>Time :</p>
