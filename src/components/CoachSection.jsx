@@ -10,30 +10,24 @@ const CoachSection = () => {
     <div
       className="p-2 sm:p-6 rounded-xl text-center shadow-lg mx-auto mt-8 w-full max-w-xs sm:max-w-sm lg:max-w-none"
       style={{
-        backgroundColor: BLACK_BG, // Dark background
+        backgroundColor: "#0F141E",
         borderColor: TEAL_BRIGHT,
         borderWidth: "2px",
         boxShadow: `0 0 15px 5px rgba(0, 201, 224, 0.3)`, // Teal glow effect
       }}
     >
       {/* Name: Sushil Arora */}
-      <h4
-        className="text-2xl sm:text-3xl font-extrabold mb-1"
-        style={{ color: TEAL_BRIGHT }}
-      >
+      <h4 className="text-2xl sm:text-3xl font-extrabold mb-1 text-amber-50">
         Sushil Arora
       </h4>
 
       {/* Designation */}
-      <p
-        className="text-base sm:text-lg font-medium mb-2"
-        style={{ color: TEAL_BRIGHT }}
-      >
+      <p className="text-base sm:text-lg font-medium mb-2 text-amber-50">
         Team Building Expert & Business Coach
       </p>
 
       {/* Details/Founder Info */}
-      <p className="text-sm sm:text-base text-gray-300 leading-relaxed">
+      <p className="text-sm sm:text-base text-cyan-400 leading-relaxed">
         Founder: IIHED – Indian Institute of <br className="sm:hidden" /> Human
         Excellence & Development | <br className="sm:hidden" />
         Featured on Josh Talks
@@ -46,7 +40,7 @@ const CoachSection = () => {
       className="relative flex flex-col items-center justify-center text-white font-sans overflow-hidden"
       style={{
         backgroundColor: BLACK_BG,
-        backgroundImage: "url('/your-background-image.jpg')", // 🔹 Replace with your own image
+        backgroundImage: "url('')", // 🔹 Replace with your own image
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -73,9 +67,9 @@ const CoachSection = () => {
           <div className="relative w-full lg:w-1/2 flex flex-col items-center">
             <div className="relative w-[80%] max-w-sm aspect-[3/4] rounded-2xl overflow-hidden border-2 border-teal-400 shadow-xl">
               <img
-                src="https://placehold.co/400x600/000000/FFFFFF?text=Sushil+Arora"
+                src="/images/mentor.png"
                 alt="Coach Sushil Arora"
-                className="object-cover w-full h-full"
+                className="object-cover bg-teal-900 w-full h-full"
               />
               {/* Overlay badges */}
               <div className="absolute bottom-6 left-4 bg-teal-600/90 text-white text-xs font-semibold px-3 py-1 rounded-full border border-white/30">

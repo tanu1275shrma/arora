@@ -38,22 +38,22 @@ const ResultsSection = () => {
     {
       title: "Rajesh Sharma Interview",
       imageUrl: "https://placehold.co/600x400/104e73/ffffff?text=Video+1",
-      videoUrl: "#video-1",
+      videoUrl: "/images/vid1.mp4",
     },
     {
       title: "Team Success Collage",
       imageUrl: "https://placehold.co/600x400/296c6b/ffffff?text=Video+2",
-      videoUrl: "#video-2",
+      videoUrl: "/images/vid2.mp4",
     },
     {
       title: "Business on Automode",
       imageUrl: "https://placehold.co/600x400/5c3a8e/ffffff?text=Video+3",
-      videoUrl: "#video-3",
+      videoUrl: "/images/vid3.mp4",
     },
     {
       title: "Client Testimonials",
       imageUrl: "https://placehold.co/600x400/a35d10/ffffff?text=Video+4",
-      videoUrl: "#video-4",
+      videoUrl: "/images/vid4.mp4",
     },
   ];
 

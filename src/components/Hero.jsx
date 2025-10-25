@@ -135,19 +135,14 @@ const Hero = () => {
       overflow: "hidden",
     },
     leftSide: { flex: "1 1 320px", textAlign: "center" },
-    speakerCircle: {
-      width: "240px",
-      height: "240px",
-      borderRadius: "50%",
-      background: "radial-gradient(circle at center, #02292b, #000)",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-      margin: "0 auto",
-      boxShadow: "0 0 40px rgba(0,255,255,0.25)",
+
+    speakerImg: {
+      width: "160%",
+      borderRadius: "40%",
+      objectFit: "cover",
     },
-    speakerImg: { width: "90%", borderRadius: "50%", objectFit: "cover" },
     speakerName: {
+      border: "2px",
       fontSize: "22px",
       fontWeight: "700",
       color: "#3ae7e7",
@@ -324,13 +319,11 @@ const Hero = () => {
         <div className="webinarWrapper" style={styles.webinarWrapper}>
           <div style={styles.leftSide}>
             <div style={styles.speakerCircle}>
-              <img
-                src="/images/sushil.png"
-                alt="Speaker"
-                style={styles.speakerImg}
-              />
+              <img src="/images/face.png" alt="Speaker" className="cover" />
             </div>
-            <h3 style={styles.speakerName}>Sushil Arora</h3>
+            <h3 className="border-2 border-cyan-400 rounded-3xl">
+              Sushil Arora
+            </h3>
             <p style={styles.speakerRole}>
               Team Building Expert & Business Coach
             </p>
