@@ -75,9 +75,7 @@ const CoachSection = () => {
               <div className="absolute bottom-6 left-4 bg-teal-600/90 text-white text-xs font-semibold px-3 py-1 rounded-full border border-white/30">
                 25+ YEARS IN BUSINESS
               </div>
-              <div className="absolute bottom-6 right-4 bg-gray-900/90 text-white text-xs font-semibold px-3 py-1 rounded-full border border-white/30">
-                11+ YEARS IN TEAM BUILDING
-              </div>
+              
             </div>
 
             {/* --- INTEGRATED COACH INFO CARD --- */}
