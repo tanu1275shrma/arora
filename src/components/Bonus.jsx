@@ -5,31 +5,31 @@ const Bonus = () => {
   const bonuses = [
     {
       title: "🚀 BONUS 1 - Team Building Process E-Book",
-      oldPrice: "$1499",
+      oldPrice: "₹1499",
       newPrice: "FREE!",
       desc: "Comprehensive guide with strategies for higher rankings and solid tracking campaigns.",
     },
     {
       title: "🚀 BONUS 2 - Engaging Millennials & Gen Z Guide",
-      oldPrice: "$999",
+      oldPrice: "₹999",
       newPrice: "FREE!",
       desc: "Unlock deep insights with cutting-edge ad strategies and performance tips.",
     },
     {
       title: "🚀 BONUS 3 - Appraisal & Task Checklist Template",
-      oldPrice: "$999",
+      oldPrice: "₹999",
       newPrice: "FREE!",
       desc: "Real-time customizable dashboard template for all your campaigns.",
     },
     {
       title: "🚀 BONUS 4 - Action Points for Learning Culture",
-      oldPrice: "$999",
+      oldPrice: "₹999",
       newPrice: "FREE!",
       desc: "Swipeable prompt library for social posts, ads, and creative campaigns.",
     },
     {
       title: "🚀 BONUS 5 - AI Tools for Team Management",
-      oldPrice: "$499",
+      oldPrice: "₹499",
       newPrice: "FREE!",
       desc: "Plan and optimize your content workflow with this professional toolkit.",
     },
