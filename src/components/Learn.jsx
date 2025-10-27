@@ -25,7 +25,7 @@ const Learn = () => {
     },
     {
       title: "Execution Blueprint",
-      desc: "move from firefighting to smooth operations, scaling without chaos.",
+      desc: "move from firefighting to smooth operations, so your cash flow and time stablize.",
       img: "/images/pic5.png",
     },
   ];

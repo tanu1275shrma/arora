@@ -65,7 +65,12 @@ const CoachSection = () => {
         >
           {/* LEFT — Coach Image & Info Card (Modified to include the info card) */}
           <div className="relative w-full lg:w-1/2 flex flex-col items-center">
-            <div className="relative w-[80%] max-w-sm aspect-[3/4] rounded-2xl overflow-hidden border-2 border-teal-400 shadow-xl">
+            <div
+              className="relative w-[80%] max-w-sm aspect-[3/4] rounded-2xl overflow-hidden border-2 border-teal-400 shadow-xl"
+              style={{
+                backgroundImage: "url('/images/bp.jpg')",
+              }}
+            >
               <img
                 src="/images/mentor.png"
                 alt="Coach Sushil Arora"
@@ -75,7 +80,6 @@ const CoachSection = () => {
               <div className="absolute bottom-6 left-4 bg-teal-600/90 text-white text-xs font-semibold px-3 py-1 rounded-full border border-white/30">
                 25+ YEARS IN BUSINESS
               </div>
-              
             </div>
 
             {/* --- INTEGRATED COACH INFO CARD --- */}
@@ -104,7 +108,7 @@ const CoachSection = () => {
               className="text-lg md:text-xl font-semibold mb-4"
               style={{ color: TEAL_BRIGHT }}
             >
-              Why His Guidance Works When Others Fail
+              Why His Guidance Works When Others Fail:
             </h4>
 
             {/* BENEFIT LIST */}
@@ -132,13 +136,14 @@ const CoachSection = () => {
                     His methods helped brands:
                     <ul className="list-disc pl-5 mt-2 text-gray-300 text-sm space-y-1">
                       <li>
-                        Scale India’s top D2C brands to ₹100 Cr+ revenue within
-                        24 months.
+                        Scale India’s top D2C brands from zero to ₹100 Cr+
+                        revenue within 24 months.
                       </li>
                       <li>
                         Automate 50–70% of daily operations with practical AI
                         tools.
                       </li>
+                      <li>Reclaim 10-15 hours weekly for strategy.</li>
                     </ul>
                   </>
                 }

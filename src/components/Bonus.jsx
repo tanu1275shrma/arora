@@ -39,16 +39,21 @@ const Bonus = () => {
     <section className="bg-[#07131f] text-white py-16 px-6 text-center relative overflow-hidden">
       {/* Heading Section */}
       <div className="mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-cyan-400 mb-2 animate-pulse">
-          UNLOCK YOUR
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-100 mb-2 ">
+          Register Today &{" "}
+          <span className="text-cyan-400">
+            Unlock ₹4995 Worth of Premium Bonuses <br />
+            <span className="text-gray-100"> - Free With Your</span>
+            <span className="text-cyan-400"> ₹99 Webinar Seat</span>
+          </span>
         </h2>
-        <h1 className="text-4xl md:text-5xl font-extrabold">
-          DIGITAL MARKETING BONUSES
-        </h1>
+
         <div className="w-24 h-1 bg-cyan-400 mx-auto my-4 rounded-full animate-pulse"></div>
         <p className="text-gray-300 max-w-2xl mx-auto">
-          Supercharge your strategy with our exclusive bonuses! Get access to
-          premium resources designed to boost campaigns and accelerate growth.
+          This isn't just a webinar.When you join todat, you'll also recieve an
+          exclusive Team Building Process E-book, designed to give you
+          practical, real-world strategies that business owners between ₹5-₹100
+          Cr are using right now to scale profitably.
         </p>
       </div>
 

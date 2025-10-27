@@ -38,9 +38,13 @@ const Testimonials = () => {
 
   return (
     <section className="bg-[#031220] min-h-screen flex flex-col items-center justify-center py-10">
-      <h2 className="text-3xl md:text-4xl font-bold text-white mb-10 text-center">
-        Customer Testimonials
+      <h2 className="text-3xl md:text-4xl font-bold text-cyan-400 mb-10 text-center">
+        Proof That If Works:
       </h2>
+      <p className="text-white text-2xl text-center mb-10 ">
+        Testimonials From Business Owners Who Escaped Firefighting and Scaled
+        Smoothly
+      </p>
 
       {/* ✅ Responsive Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4 md:px-10 w-full max-w-6xl">
